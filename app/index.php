@@ -61,7 +61,7 @@ function getArticles(PDO $PDO){
 
     <main role="main" class="container">
       
-    <h1 class="mt-5">Les articles Disponible dans la BD</h1>
+    <h1 class="mt-5">Les articles Disponibles dans la BD</h1>
 
     <?php 
         try {
@@ -90,7 +90,7 @@ function getArticles(PDO $PDO){
 
     <footer class="page-footer font-small bg-dark mt-5">
         <div class="footer-copyright text-center py-3 text-white">© Copyright:
-            <a href="#"> MonAppDocker</a>
+            <a href="#"> MonApp</a>
         </div>
     </footer>
 
