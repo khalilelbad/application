@@ -28,7 +28,7 @@ function getArticles(PDO $PDO){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Ma propre image Docker !</title>
+    <title>APP Articles</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -42,7 +42,7 @@ function getArticles(PDO $PDO){
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <a class="navbar-brand" href="#">Ma propre image Docker</a>
+      <a class="navbar-brand" href="#">APP Articles</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -61,7 +61,7 @@ function getArticles(PDO $PDO){
 
     <main role="main" class="container">
       
-    <h1 class="mt-5">Mes articles</h1>
+    <h1 class="mt-5">Les articles Disponible dans la BD</h1>
 
     <?php 
         try {
